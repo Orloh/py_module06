@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # *************************************************************************** #
 #                                                                             #
 #                                                        :::      ::::::::    #
@@ -10,7 +11,7 @@
 #                                                                             #
 # *************************************************************************** #
 
-from alchemy import transmutation
+import alchemy.transmutation as transmutation
 
 
 def main() -> None:
